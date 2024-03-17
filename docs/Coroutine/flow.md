@@ -16,25 +16,26 @@ nav_order: 1
 <br/>
 
 1. Flow 빌더 함수는 FlowCollector 컨텍스트를 제공한다.<br/>
-```
-fun <T> flow(
-  block: suspend FlowCollector<T>.() -> Unit
-): Flow<T>
-```
+
+        fun <T> flow(
+          block: suspend FlowCollector<T>.() -> Unit
+        ): Flow<T>
 <br/>
 
 2. Flow.collect()를 호출하면 FlowCollector 객체를 생성한다.<br/>
-```
-public interface Flow<out T> {
-  public suspend fun collect(collector: FlowCollector<T>)
-}
 
-public suspend inline fun <T> Flow<T>.collect(crossinline action: suspend (value: T) -> Unit): Unit =
-  collect(object : FlowCollector<T> {
-    override suspend fun emit(value: T) = action(value)
-  })
-```
+        public interface Flow<out T> {
+          public suspend fun collect(collector: FlowCollector<T>)
+        }
+        
+        public suspend inline fun <T> Flow<T>.collect(crossinline action: suspend (value: T) -> Unit): Unit =
+          collect(object : FlowCollector<T> {
+            override suspend fun emit(value: T) = action(value)
+          })
+<br/>
+
 3. Flow 빌더 함수에서 emit()을 호출하면 collect()를 통해 전달된 람다 함수가 실행된다.<br/>
+
 </details>
 <details>
   <summary>예시</summary>
@@ -42,20 +43,19 @@ public suspend inline fun <T> Flow<T>.collect(crossinline action: suspend (value
 <br/>
 
 아래의 두 코드는 같은 코드이다.
-```
-val myFlow = flow {
-  emit(1)
-  emit(2)
-}
 
-myFlow.collect {
-  println(it)
-}
-```
-```
-println(1)
-println(2)
-```
+    val myFlow = flow {
+      emit(1)
+      emit(2)
+    }
+    
+    myFlow.collect {
+      println(it)
+    }
+<br/>
+
+    println(1)
+    println(2)
 </details>
 
 ### Flow Builder
@@ -76,46 +76,43 @@ println(2)
 
 <br/>
 
-```
-val flow = flow {
-  emit(1)
-  delay(100)
-  emit(2)
-}
+    val flow = flow {
+      emit(1)
+      delay(100)
+      emit(2)
+    }
+    
+    scope.launch {
+      flow.collect {
+        println("1: " + it)
+      }
+      flow.collect {
+        println("2: " + it)
+      }
+    }
+    // 실행 결과
+    // 1: 1
+    // 1: 2
+    // 2: 1
+    // 2: 2
+<br/>
 
-scope.launch {
-  flow.collect {
-    println("1: " + it)
-  }
-  flow.collect {
-    println("2: " + it)
-  }
-}
-// 실행 결과
-// 1: 1
-// 1: 2
-// 2: 1
-// 2: 2
-```
-
-```
-val flow = flow {
-  emit(1)
-  delay(100)
-  emit(2)
-}
-
-flow.onEach {
-  println("1: " + it)
-}.launchIn(scope)
-
-flow.onEach {
-    println("2: " + it)
-}.launchIn(scope)
-// 실행 결과
-// 1: 1
-// 2: 1
-// 1: 2
-// 2: 2
-```
+    val flow = flow {
+      emit(1)
+      delay(100)
+      emit(2)
+    }
+    
+    flow.onEach {
+      println("1: " + it)
+    }.launchIn(scope)
+    
+    flow.onEach {
+        println("2: " + it)
+    }.launchIn(scope)
+    // 실행 결과
+    // 1: 1
+    // 2: 1
+    // 1: 2
+    // 2: 2
 </details>
