@@ -37,6 +37,7 @@ nav_order: 1
 3. Flow 빌더 함수에서 emit()을 호출하면 collect()를 통해 전달된 람다 함수가 실행된다.<br/>
 
 </details>
+
 <details>
   <summary>예시</summary>
 
@@ -71,6 +72,7 @@ nav_order: 1
 - collect(): ``suspend`` function. 연속적으로 호출하면 앞의 호출이 끝나고, 뒤의 호출이 시작된다.
 - launchIn(): ``regular`` function. 연속적으로 호출하면 두 블럭이 동시에 실행된다.
 - asLiveData(): Flow를 LiveData로 변환한다.
+
 <details>
   <summary>예시</summary>
 
