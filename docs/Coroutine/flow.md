@@ -5,37 +5,35 @@ parent: Coroutine
 nav_order: 1
 ---
 
-## Flow
-### Flow 란?
-비동기적으로 계산되는 데이터의 흐름
-<br/>
+# Typography
+{: .no_toc }
 
-<details>
-  <summary>동작 원리</summary>
+## Table of contents
+{: .no_toc .text-delta }
 
-<br/>
+1. TOC
+   {:toc}
 
-1. Flow 빌더 함수는 FlowCollector 컨텍스트를 제공한다.<br/>
-```java
-fun <T> flow(
-    block: suspend FlowCollector<T>.() -> Unit
-): Flow<T>
+---
+
+## Font stack
+
+By default, Just the Docs uses a native system font stack for sans-serif fonts:
+
+```scss
+system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Segoe UI Emoji"
 ```
-<br/>
 
-2. Flow.collect()를 호출하면 FlowCollector 객체를 생성한다.<br/>
-```java
-public interface Flow<out T> {
-   public suspend fun collect(collector: FlowCollector<T>)
-}
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+abcdefghijklmnopqrstuvwxyz
+{: .fs-5 .ls-10 .code-example }
 
-public suspend inline fun <T> Flow<T>.collect(crossinline action: suspend (value: T) -> Unit): Unit =
-   collect(object : FlowCollector<T> {
-      override suspend fun emit(value: T) = action(value)
-   })
+For monospace type, like code snippets or the `<pre>` element, Just the Docs uses a native system font stack for monospace fonts:
+
+```scss
+"SFMono-Regular", Menlo, Consolas, Monospace
 ```
-<br/>
 
-3. Flow 빌더 함수에서 emit()을 호출하면 collect()를 통해 전달된 람다 함수가 실행된다.<br/>
-</details>
-
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+abcdefghijklmnopqrstuvwxyz
+{: .fs-5 .ls-10 .text-mono .code-example }
