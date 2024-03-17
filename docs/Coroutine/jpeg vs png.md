@@ -1,7 +1,7 @@
 ---
 title: JPEG vs PNG
 layout: default
-parent: etc
+parent: Etc
 nav_order: 1
 ---
 

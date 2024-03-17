@@ -1,7 +1,7 @@
 ---
 title: Garbage Collection
 layout: default
-parent: etc
+parent: Etc
 nav_order: 3
 ---
 

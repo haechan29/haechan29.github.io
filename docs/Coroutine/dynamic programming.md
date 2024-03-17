@@ -1,7 +1,7 @@
 ---
 title: Dynamic Programming
 layout: default
-parent: etc
+parent: Etc
 nav_order: 2
 ---
 
