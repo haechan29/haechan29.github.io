@@ -14,14 +14,7 @@ nav_order: 1
 
 ### 동작 원리
 1. Flow 빌더 함수는 FlowCollector 컨텍스트를 제공한다.<br/>
-```kotlin
-fun <T> flow(
-  block: suspend FlowCollector<T>.() -> Unit
-): Flow<T>
-```
-<br/>
 
-1. Flow 빌더 함수는 FlowCollector 컨텍스트를 제공한다.<br/>
 ```kotlin
 fun <T> flow(
   block: suspend FlowCollector<T>.() -> Unit
@@ -30,6 +23,7 @@ fun <T> flow(
 <br/>
 
 1. Flow.collect()를 호출하면 FlowCollector 객체를 생성한다.<br/>
+
 ```kotlin
 interface Flow<out T> {
   suspend fun collect(collector: FlowCollector<T>)
