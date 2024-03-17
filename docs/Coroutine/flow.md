@@ -16,22 +16,24 @@ nav_order: 1
 <br/>
 
 1. Flow 빌더 함수는 FlowCollector 컨텍스트를 제공한다.<br/>
-
-        fun <T> flow(
-          block: suspend FlowCollector<T>.() -> Unit
-        ): Flow<T>
+```kotlin
+fun <T> flow(
+    block: suspend FlowCollector<T>.() -> Unit
+): Flow<T>
+```
 <br/>
 
 2. Flow.collect()를 호출하면 FlowCollector 객체를 생성한다.<br/>
+```kotlin
+public interface Flow<out T> {
+   public suspend fun collect(collector: FlowCollector<T>)
+}
 
-        public interface Flow<out T> {
-          public suspend fun collect(collector: FlowCollector<T>)
-        }
-        
-        public suspend inline fun <T> Flow<T>.collect(crossinline action: suspend (value: T) -> Unit): Unit =
-          collect(object : FlowCollector<T> {
-            override suspend fun emit(value: T) = action(value)
-          })
+public suspend inline fun <T> Flow<T>.collect(crossinline action: suspend (value: T) -> Unit): Unit =
+   collect(object : FlowCollector<T> {
+      override suspend fun emit(value: T) = action(value)
+   })
+```
 <br/>
 
 3. Flow 빌더 함수에서 emit()을 호출하면 collect()를 통해 전달된 람다 함수가 실행된다.<br/>
