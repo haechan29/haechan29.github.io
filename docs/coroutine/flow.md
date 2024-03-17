@@ -20,6 +20,8 @@ fun <T> flow(
 ): Flow<T>
 ```
 
+<br/>
+
 2. Flow.collect()를 호출하면 FlowCollector 객체를 생성한다.<br/>
 
 ```kotlin
@@ -32,6 +34,8 @@ suspend inline fun <T> Flow<T>.collect(crossinline action: suspend (value: T) ->
     override suspend fun emit(value: T) = action(value)
   })
 ```
+
+<br/>
 
 3. Flow 빌더 함수에서 emit()을 호출하면 collect()를 통해 전달된 람다 함수가 실행된다.<br/>
 <br/>
@@ -49,7 +53,9 @@ myFlow.collect {
 }
 ```
 
-```
+<br/>
+
+```kotlin
 println(1)
 println(2)
 ```
@@ -93,6 +99,8 @@ scope.launch {
 // 2: 1
 // 2: 2
 ```
+
+<br/>
 
 ```kotlin
 val flow = flow {
