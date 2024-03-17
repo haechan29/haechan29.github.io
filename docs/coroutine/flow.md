@@ -16,7 +16,9 @@ nav_order: 1
 
 ---
 
-```scss
-"SFMono-Regular", Menlo, Consolas, Monospace
+```kotlin
+val a = 1
+val b = 2
+val c = a + b
 ```
 
