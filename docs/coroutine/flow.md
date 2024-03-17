@@ -19,9 +19,9 @@ fun <T> flow(
   block: suspend FlowCollector<T>.() -> Unit
 ): Flow<T>
 ```
-<br/>
 
-2. Flow.collect()를 호출하면 FlowCollector 객체를 생성한다.<br/>
+
+1. Flow.collect()를 호출하면 FlowCollector 객체를 생성한다.<br/>
 ```kotlin
 interface Flow<out T> {
   suspend fun collect(collector: FlowCollector<T>)
