@@ -3,7 +3,7 @@ title: Flow
 layout: default
 parent: Coroutine
 nav_order: 1
-has_toc: true
+toc: true
 ---
 
 # Flow
