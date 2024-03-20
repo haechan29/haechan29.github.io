@@ -1,5 +1,5 @@
 ---
-title: Asymmetric Encryption
+title: 비대칭 암호화
 layout: default
 parent: Etc
 nav_order: 5
