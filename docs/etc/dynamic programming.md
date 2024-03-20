@@ -5,8 +5,8 @@ parent: Etc
 nav_order: 2
 ---
 
-## Dynamic Programming
-### Dynamic Programming이란?
+## Dynamic Programming이란?
+### Dynamic Programming
 복잡한 문제를 작은 하위 문제로 나누어 해결하고, 각 하위 문제의 해답을 저장하여 중복 계산을 피하는 방식으로 전체 문제의 해답을 찾는 알고리즘 설계 기법
 
 ### 적용 가능한 문제
