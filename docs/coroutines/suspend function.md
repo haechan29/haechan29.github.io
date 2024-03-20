@@ -6,6 +6,7 @@ nav_order: 2
 ---
 
 ## suspend function이란?
+### suspend function
 - 코틀린의 코루틴에서 사용되는 특별한 종류의 함수.
 - 코루틴 스코프 내부 또는 다른 suspend function에서만 호출될 수 있습니다.
 - 함수의 실행을 일시 중단(suspend)할 수 있습니다.
@@ -14,9 +15,6 @@ nav_order: 2
 Ex
 
 ```kotlin
-
-import kotlin.coroutines.EmptyCoroutineContext
-
 fun main() {
     // 코루틴 스코프 생성
     val scope = CoroutineScope(EmptyCoroutineContext)
