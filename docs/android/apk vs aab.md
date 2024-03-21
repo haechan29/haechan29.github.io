@@ -1,8 +1,8 @@
 ---
 title: APK vs AAB
 layout: default
-parent: Etc
-nav_order: 17
+parent: Android
+nav_order: 3
 ---
 
 ## AAB vs APK

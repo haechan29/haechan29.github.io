@@ -1,8 +1,8 @@
 ---
 title: ConstraintLayout의 장점
 layout: default
-parent: Etc
-nav_order: 9
+parent: Android
+nav_order: 5
 ---
 
 ## ConstraintLayout의 장점은?

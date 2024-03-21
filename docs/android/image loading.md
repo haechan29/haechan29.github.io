@@ -1,8 +1,8 @@
 ---
 title: Image Loading
 layout: default
-parent: Etc
-nav_order: 13
+parent: Android
+nav_order: 6
 ---
 
 ## 고해상도 이미지의 로딩 방법은?

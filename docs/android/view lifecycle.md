@@ -1,8 +1,8 @@
 ---
 title: View Lifecycle
 layout: default
-parent: Etc
-nav_order: 10
+parent: Android
+nav_order: 4
 ---
 
 ## 뷰는 어떻게 그려지나요?

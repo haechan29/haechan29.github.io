@@ -1,8 +1,8 @@
 ---
 title: 안드로이드 앱의 컴파일 과정
 layout: default
-parent: Etc
-nav_order: 16
+parent: Android
+nav_order: 2
 ---
 
 ## 안드로이드 앱의 컴파일 과정

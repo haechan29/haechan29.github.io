@@ -1,8 +1,8 @@
 ---
 title: Looper
 layout: default
-parent: Etc
-nav_order: 14
+parent: Android
+nav_order: 7
 ---
 
 ## Looper란?

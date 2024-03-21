@@ -1,8 +1,8 @@
 ---
 title: Multidex
 layout: default
-parent: Etc
-nav_order: 15
+parent: Android
+nav_order: 1
 ---
 
 ## Multidex란?

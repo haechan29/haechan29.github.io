@@ -1,8 +1,8 @@
 ---
 title: Weak Reference
 layout: default
-parent: Etc
-nav_order: 11
+parent: Android
+nav_order: 9
 ---
 
 ## WeakReference란?

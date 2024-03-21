@@ -1,8 +1,8 @@
 ---
 title: Parcelable
 layout: default
-parent: Etc
-nav_order: 12
+parent: Android
+nav_order: 8
 ---
 
 ## Parcelable이란?
