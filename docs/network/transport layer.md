@@ -23,5 +23,5 @@ nav_order: 6
 - 오류 검사는 체크섬만 지원한다.
 - 헤더가 __8바이트__ 로 고정되어 있다.
 
-[1]: virtual%20circuit%20packet%20switching.html
+[1]: packet%20switching.html
 [2]: https://80000coding.oopy.io/f5fe190f-bbad-4956-8789-36546f42be83
