@@ -1,7 +1,8 @@
 ---
 title: ConstraintLayout의 장점
 layout: default
-parent: Android
+parent: Basic
+grand_parent: Android
 nav_order: 5
 ---
 

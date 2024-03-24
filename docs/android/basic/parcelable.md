@@ -1,7 +1,8 @@
 ---
 title: Parcelable
 layout: default
-parent: Android
+parent: Basic
+grand_parent: Android
 nav_order: 8
 ---
 

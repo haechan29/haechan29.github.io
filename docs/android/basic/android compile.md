@@ -1,7 +1,8 @@
 ---
 title: 안드로이드 앱의 컴파일 과정
 layout: default
-parent: Android
+parent: Basic
+grand_parent: Android
 nav_order: 2
 ---
 
