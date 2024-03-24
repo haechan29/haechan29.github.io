@@ -2,7 +2,7 @@
 title: 네트워크 유형
 layout: default
 parent: Network
-nav_order: 3
+nav_order: 4
 ---
 
 ## 네트워크에는 어떤 유형이 있나요?

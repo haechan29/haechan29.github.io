@@ -2,6 +2,7 @@
 title: Internet Layer
 layout: default
 parent: Network Model
+grand_parent: Network
 nav_order: 5
 ---
 

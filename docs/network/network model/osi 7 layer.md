@@ -2,6 +2,7 @@
 title: OSI 7계층
 layout: default
 parent: Network Model
+grand_parent: Network
 nav_order: 8
 ---
 

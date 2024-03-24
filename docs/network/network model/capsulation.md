@@ -2,6 +2,7 @@
 title: 캡슐화
 layout: default
 parent: Network Model
+grand_parent: Network
 nav_order: 9
 ---
 

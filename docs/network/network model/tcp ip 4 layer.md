@@ -2,6 +2,7 @@
 title: TCP/IP 4계층
 layout: default
 parent: Network Model
+grand_parent: Network
 nav_order: 1
 ---
 

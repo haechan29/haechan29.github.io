@@ -2,6 +2,7 @@
 title: 네트워크를 이루는 장치
 layout: default
 parent: Network Model
+grand_parent: Network
 nav_order: 10
 ---
 

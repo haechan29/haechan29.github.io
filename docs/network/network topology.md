@@ -2,7 +2,7 @@
 title: 네트워크 토폴로지
 layout: default
 parent: Network
-nav_order: 1
+nav_order: 3
 ---
 
 ## 네트워크 토폴로지에는 어떤 종류가 있나요?

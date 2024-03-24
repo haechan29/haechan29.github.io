@@ -2,6 +2,7 @@
 title: TCP, UDP의 패킷 교환 방식
 layout: default
 parent: Network Model
+grand_parent: Network
 nav_order: 4
 ---
 

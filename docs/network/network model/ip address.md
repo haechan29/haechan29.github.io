@@ -2,6 +2,7 @@
 title: IP 주소
 layout: default
 parent: Network Model
+grand_parent: Network
 nav_order: 6
 ---
 
