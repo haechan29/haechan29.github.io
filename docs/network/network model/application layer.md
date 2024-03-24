@@ -16,7 +16,7 @@ nav_order: 2
 - 인증 및 권한 부여: 인증 절차를 수행하고, 데이터 접근 권한을 부여합니다.<br/>
 
 ### 사용하는 프로토콜
-1. HTTP: Hypertext Transfer Protocol. 브라우저 또는 서버 간의 통신에 주로 이용되는 프로토콜.<br/>
+1. [HTTP] [1]: Hypertext Transfer Protocol. 브라우저 또는 서버 간의 통신에 주로 이용되는 프로토콜.<br/>
 2. SMTP: Simple Mail Transfer Protocol. 메일을 전송하는데 사용되는 프로토콜.<br/>
 3. SSH: Secure SHell Protocol. 보안을 위한 암호화 네트워크 프로토콜.<br/>
 4. FTP: File Transfer Protocol. 파일을 전송하는데 사용되는 프로토콜.
@@ -26,3 +26,5 @@ nav_order: 2
 1. DNS
     - Domain Name System.
     - 도메인 이름을 IP 주소로 변환하는 서비스. 예를 들어, 사용자가 웹 브라우저에 도메인 이름을 입력할 때, DNS 서버는 해당 도메인 이름에 해당하는 IP 주소를 조회하여 반환합니다.
+
+[1]: network/http/http.html

@@ -3,7 +3,7 @@ title: 쿠키 vs 세션
 layout: default
 parent: Http
 grand_parent: Network
-nav_order: 1
+nav_order: 6
 ---
 
 ## 쿠키 vs 세션
