@@ -1,8 +1,8 @@
 ---
 title: Application Layer
 layout: default
-parent: Network
-nav_order: 5
+parent: Network Model
+nav_order: 2
 ---
 
 ## 애플리케이션 계층이란?

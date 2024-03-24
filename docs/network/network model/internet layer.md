@@ -1,8 +1,8 @@
 ---
 title: Internet Layer
 layout: default
-parent: Network
-nav_order: 8
+parent: Network Model
+nav_order: 4
 ---
 
 ## 인터넷 계층이란?

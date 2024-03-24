@@ -1,8 +1,8 @@
 ---
 title: Transport Layer
 layout: default
-parent: Network
-nav_order: 6
+parent: Network Model
+nav_order: 3
 ---
 
 ## 트랜스포트 계층이란?

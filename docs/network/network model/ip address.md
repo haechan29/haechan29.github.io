@@ -1,8 +1,8 @@
 ---
 title: IP 주소
 layout: default
-parent: Network
-nav_order: 9
+parent: Network Model
+nav_order: 7
 ---
 
 ## IP 주소란?

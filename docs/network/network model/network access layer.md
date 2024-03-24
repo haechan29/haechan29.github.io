@@ -1,8 +1,8 @@
 ---
 title: Network Access Layer
 layout: default
-parent: Network
-nav_order: 10
+parent: Network Model
+nav_order: 5
 ---
 
 ## 네트워크 액세스 계층이란?

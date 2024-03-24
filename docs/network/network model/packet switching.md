@@ -1,8 +1,8 @@
 ---
 title: TCP, UDP의 패킷 교환 방식
 layout: default
-parent: Network
-nav_order: 7
+parent: Network Model
+nav_order: 6
 ---
 
 ## TCP, UDP의 패킷 교환 방식
