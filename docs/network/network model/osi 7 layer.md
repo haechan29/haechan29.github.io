@@ -1,8 +1,8 @@
 ---
 title: OSI 7계층
 layout: default
-parent: Network
-nav_order: 12
+parent: Network Model
+nav_order: 8
 ---
 
 ## OSI 7계층이란?

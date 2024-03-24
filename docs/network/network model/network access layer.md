@@ -2,7 +2,7 @@
 title: Network Access Layer
 layout: default
 parent: Network Model
-nav_order: 5
+nav_order: 7
 ---
 
 ## 네트워크 액세스 계층이란?

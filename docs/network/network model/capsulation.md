@@ -1,8 +1,8 @@
 ---
 title: 캡슐화
 layout: default
-parent: Network
-nav_order: 11
+parent: Network Model
+nav_order: 9
 ---
 
 ## 캡슐화란?

@@ -2,7 +2,7 @@
 title: Internet Layer
 layout: default
 parent: Network Model
-nav_order: 4
+nav_order: 5
 ---
 
 ## 인터넷 계층이란?

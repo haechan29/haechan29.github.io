@@ -2,7 +2,7 @@
 title: IP 주소
 layout: default
 parent: Network Model
-nav_order: 7
+nav_order: 6
 ---
 
 ## IP 주소란?

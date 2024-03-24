@@ -1,8 +1,8 @@
 ---
 title: 네트워크를 이루는 장치
 layout: default
-parent: Network
-nav_order: 13
+parent: Network Model
+nav_order: 10
 ---
 
 ### 네트워크를 이루는 장치
