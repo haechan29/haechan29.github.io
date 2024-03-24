@@ -1,5 +1,5 @@
 ---
-title: 인터넷 계층
+title: Internet Layer
 layout: default
 parent: Network
 nav_order: 8

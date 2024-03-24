@@ -1,5 +1,5 @@
 ---
-title: Unicast vs Multicast vs BroadCast
+title: Unicast vs Multicast vs Broadcast
 layout: default
 parent: Network
 nav_order: 2
