@@ -1,7 +1,8 @@
 ---
 title: Unicast vs Multicast vs Broadcast
 layout: default
-parent: Network
+parent: Basic
+grand_parent: Network
 nav_order: 5
 ---
 

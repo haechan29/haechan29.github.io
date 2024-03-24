@@ -1,7 +1,8 @@
 ---
 title: 네트워크 토폴로지
 layout: default
-parent: Network
+parent: Basic
+grand_parent: Network
 nav_order: 3
 ---
 
