@@ -27,4 +27,4 @@ nav_order: 2
     - Domain Name System.
     - 도메인 이름을 IP 주소로 변환하는 서비스. 예를 들어, 사용자가 웹 브라우저에 도메인 이름을 입력할 때, DNS 서버는 해당 도메인 이름에 해당하는 IP 주소를 조회하여 반환합니다.
 
-[1]: network/http/http.html
+[1]: /docs/network/http/http.html
