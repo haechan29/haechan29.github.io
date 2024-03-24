@@ -1,8 +1,8 @@
 ---
 title: 쿠키 vs 세션
 layout: default
-parent: Network
-nav_order: 14
+parent: Http
+nav_order: 1
 ---
 
 ## 쿠키 vs 세션

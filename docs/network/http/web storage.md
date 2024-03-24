@@ -1,8 +1,8 @@
 ---
 title: 웹 스토리지
 layout: default
-parent: Network
-nav_order: 15
+parent: Http
+nav_order: 2
 ---
 
 ## 웹 스토리지란?
