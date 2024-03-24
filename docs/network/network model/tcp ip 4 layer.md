@@ -1,8 +1,8 @@
 ---
 title: TCP/IP 4계층
 layout: default
-parent: Network
-nav_order: 4
+parent: Network Model
+nav_order: 1
 ---
 
 ## TCP/IP 4계층이란?
