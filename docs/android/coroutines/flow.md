@@ -1,7 +1,7 @@
 ---
 title: Flow
 layout: default
-parent: Coroutine
+parent: Coroutines
 grand_parent: Android
 nav_order: 10
 ---

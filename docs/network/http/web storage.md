@@ -3,7 +3,7 @@ title: 웹 스토리지
 layout: default
 parent: Http
 grand_parent: Network
-nav_order: 2
+nav_order: 7
 ---
 
 ## 웹 스토리지란?

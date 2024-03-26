@@ -15,6 +15,7 @@ nav_order: 4
     - Manipulation of resources through representations: HTTP 메서드 등을 통해 자원을 조작하는 것.<br/>
     - Self-descriptive messages: 메시지가 host, MIME 타입 등 통신을 위해 필요한 정보를 모두 갖는 것.<br/>
     - HATEOAS: Hypermedia as the Engine of Application State, Application의 상태가 Hyperlink에 의해 전이되는 것.<br/>
+
 2. Stateless: 통신 과정에서 정보를 저장하지 않는다. HTTP를 사용하면 자동으로 지원된다.<br/>
 3. Cacheable: 캐싱 가능. HTTP를 사용하면 자동으로 지원된다.<br/>
 4. Client-Server 구조: 클라이언트와 서버가 서로 독립적인 구조를 가져야 한다. HTTP를 사용하면 자동으로 지원된다.<br/>
