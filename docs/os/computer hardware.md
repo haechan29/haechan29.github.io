@@ -14,8 +14,10 @@ nav_order: 2
 - 로컬 버퍼: 장치의 작은 메모리.<br/>
 - [DMA] [3]<sup>1</sup> 컨트롤러: DMA를 수행하는 컨트롤러.<br/>
 
+<br/>
+
 <sup>1</sup>DMA: Direct Memory Access. 장치가 CPU의 개입 없이 메모리에 직접 접근할 수 있게 해주는 방식.<br/>
 
-[1]: cpu.md
-[2]: memory.md
+[1]: cpu.hml
+[2]: memory.html
 [3]: https://blog.naver.com/roser111/221642875265

@@ -38,9 +38,3 @@ nav_order: 3
     - 502(Bad Gateway): 게이트웨이 또는 프록시 서버에 오류가 생겼음.<br/>
     - 503(Service Unavailable): 서버가 과부하, 유지보수 등으로 인해 일시적으로 요청을 처리할 수 없음.<br/>
     <br/>
-
-
-
-// 글 마저 쓰고
-// android, network에 있는 파일들 basic으로 옮기고
-// db directory 순서 맨 아래로
