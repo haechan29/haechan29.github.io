@@ -1,8 +1,9 @@
 ---
 title: CPU
 layout: default
-parent: OS
-nav_order: 3
+parent: CPU
+grand_parent: OS
+nav_order: 1
 ---
 
 ## CPU란?

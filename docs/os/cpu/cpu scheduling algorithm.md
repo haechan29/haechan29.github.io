@@ -1,8 +1,9 @@
 ---
 title: CPU 스케쥴링 알고리즘
 layout: default
-parent: OS
-nav_order: 3.5
+parent: CPU
+grand_parent: OS
+nav_order: 2
 ---
 
 ## CPU는 어떻게 스케쥴링될까?
