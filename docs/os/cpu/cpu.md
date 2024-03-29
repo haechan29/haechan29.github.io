@@ -18,6 +18,6 @@ nav_order: 1
 - 제어 장치(Control Unit, CU): 명령어를 해석하며 데이터 처리 순서를 결정하고 프로세스를 조작한다.<br/>
 - 레지스터: CPU 안에 있는 매우 빠른 임시 기억 장치.<br/>
 
-[1]: cpu%20scheduling.html
+[1]: cpu%20scheduling%20algorithm.html
 [2]: /docs/os/process%20and%20thread/interrupt.html
 [3]: /docs/os/memory/virtual%20memory.html
