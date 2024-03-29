@@ -1,7 +1,8 @@
 ---
 title: 컴퓨터의 하드웨어
 layout: default
-parent: OS
+parent: Basic
+grand_parent: OS
 nav_order: 2
 ---
 

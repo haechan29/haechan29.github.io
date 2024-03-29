@@ -1,7 +1,8 @@
 ---
 title: OS
 layout: default
-parent: OS
+parent: Basic
+grand_parent: OS
 nav_order: 1
 ---
 

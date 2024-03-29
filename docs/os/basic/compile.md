@@ -1,8 +1,9 @@
 ---
 title: 프로그램의 컴파일 과정
 layout: default
-parent: OS
-nav_order: 12
+parent: Basic
+grand_parent: OS
+nav_order: 3
 ---
 
 ## 프로그램은 어떻게 컴파일되나요?
