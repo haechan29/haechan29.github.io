@@ -3,7 +3,7 @@ title: 펌웨어 vs 운영체제
 layout: default
 parent: Basic
 grand_parent: OS
-nav_order: 4
+nav_order: 5
 ---
 
 ## 펌웨어 vs 운영체제
