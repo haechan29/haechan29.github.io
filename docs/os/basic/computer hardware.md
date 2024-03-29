@@ -19,6 +19,6 @@ nav_order: 2
 
 <sup>1</sup>DMA: Direct Memory Access. 장치가 CPU의 개입 없이 메모리에 직접 접근할 수 있게 해주는 방식.<br/>
 
-[1]: cpu.hml
-[2]: memory.html
+[1]: /docs/os/cpu/cpu.html
+[2]: /docs/os/memory/memory.html
 [3]: https://blog.naver.com/roser111/221642875265

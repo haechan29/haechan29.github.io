@@ -31,5 +31,5 @@ OS는 CPU, 메모리 등의 하드웨어, [커널(Kernel)] [2], 시스템 콜(Sy
 <sup>2</sup>커널 모드(Kernel mode): 커널 영역의 코드를 실행할 수 있는 모드. 모드빗이 0인 상태.<br/>
 <sup>3</sup>사용자 모드(User mode): 커널 영역의 코드를 실행할 수 없는 모드. 모드빗이 0인 상태.<br/>
 
-[1]: computer%20hardware.html
+[1]: /docs/os/basic/computer%20hardware.html
 [2]: https://minkwon4.tistory.com/295

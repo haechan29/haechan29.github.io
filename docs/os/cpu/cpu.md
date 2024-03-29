@@ -19,5 +19,5 @@ nav_order: 1
 - 레지스터: CPU 안에 있는 매우 빠른 임시 기억 장치.<br/>
 
 [1]: cpu%20scheduling.html
-[2]: interrupt.html
-[3]: virtual%20memory.html
+[2]: /docs/os/process%20and%20thread/interrupt.html
+[3]: /docs/os/memory/virtual%20memory.html
