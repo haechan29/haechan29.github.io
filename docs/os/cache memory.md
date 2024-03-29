@@ -1,8 +1,9 @@
 ---
 title: 캐시 메모리
 layout: default
-parent: OS
-nav_order: 5.1
+parent: Memory
+grand_parent: OS
+nav_order: 2
 ---
 
 ## 캐시 메모리란?

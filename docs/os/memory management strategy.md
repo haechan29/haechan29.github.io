@@ -1,8 +1,9 @@
 ---
 title: 메모리 관리 전략
 layout: default
-parent: OS
-nav_order: 5.2
+parent: Memory
+grand_parent: OS
+nav_order: 1
 ---
 
 ## 메모리 관리 전략의 종류와 문제점

@@ -1,8 +1,9 @@
 ---
 title: 메모리
 layout: default
-parent: OS
-nav_order: 5
+parent: Memory
+grand_parent: OS
+nav_order: 1
 ---
 
 ## 메모리란?
