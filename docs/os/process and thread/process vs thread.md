@@ -1,8 +1,9 @@
 ---
 title: 프로세스 vs 스레드
 layout: default
-parent: OS
-nav_order: 8
+parent: Process, Thread
+grand_parent: OS
+nav_order: 1
 ---
 
 ## 프로세스와 스레드의 차이점은?

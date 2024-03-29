@@ -1,8 +1,9 @@
 ---
 title: 인터럽트
 layout: default
-parent: OS
-nav_order: 4
+parent: Process, Thread
+grand_parent: OS
+nav_order: 2
 ---
 
 ## 인터럽트란?

@@ -1,8 +1,9 @@
 ---
 title: IPC
 layout: default
-parent: OS
-nav_order: 10
+parent: Process, Thread
+grand_parent: OS
+nav_order: 4
 ---
 
 ## IPC란?

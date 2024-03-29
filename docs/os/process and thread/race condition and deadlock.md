@@ -1,8 +1,9 @@
 ---
 title: 경쟁 상태와 교착 상태
 layout: default
-parent: OS
-nav_order: 11
+parent: Process, Thread
+grand_parent: OS
+nav_order: 5
 ---
 
 ## 경쟁 상태와 교착 상태
