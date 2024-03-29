@@ -1,8 +1,9 @@
 ---
 title: 스레싱
 layout: default
-parent: OS
-nav_order: 7
+parent: Memory
+grand_parent: OS
+nav_order: 5
 ---
 
 ## 스레싱이란?
