@@ -5,7 +5,7 @@ parent: Etc
 nav_order: 1
 ---
 
-## 여러 이미지 포맷은 언제 사용되나요?
+## 여러 이미지 포맷은 언제 사용될까?
 ### JPEG
 - Joint Photographic Experts Group.<br/>
 - 래스터 이미지<sup>1</sup>.<br/>
