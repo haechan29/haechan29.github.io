@@ -26,7 +26,7 @@ nav_order: 1
 - 모드빗<sup>1</sup>을 통해 커널 모드<sup>2</sup>와 사용자 모드<sup>3</sup>를 구분하여 시스템의 보안을 유지합니다.<br/>
 
 ### 인터페이스
-- 사용자의 명령을 컴퓨터에 전달하고 결과를 사용자에게 알려준다.<br/>
+- 사용자와 시스템의 상호작용을 담당한다.<br/>
 - Ex. GUI(Graphical User Interface), CLI(Command Line Interface).<br/>
 
 <br/>
