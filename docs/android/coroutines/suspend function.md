@@ -6,14 +6,14 @@ grand_parent: Android
 nav_order: 2
 ---
 
-## suspend function이란?
-### suspend function
-- 코틀린의 코루틴에서 사용되는 특별한 종류의 함수.
-- 코루틴 스코프 내부 또는 다른 suspend function에서만 호출될 수 있습니다.
-- 함수의 실행을 일시 중단(suspend)할 수 있습니다.
-- 비동기 코드를 동기 코드처럼 읽히게 하여 코드의 가독성과 유지보수성을 크게 향상시킵니다.
+## Suspend Function이란?
+### Suspend Function
+- 코틀린의 코루틴에서 사용되는 특별한 종류의 함수.<br/>
+- 코루틴 스코프 내부 또는 다른 suspend function에서만 호출될 수 있습니다.<br/>
+- 함수의 실행을 일시 중단(suspend)할 수 있습니다.<br/>
+- 비동기 코드를 동기 코드처럼 읽히게 하여 코드의 가독성과 유지보수성을 크게 향상시킵니다.<br/><br/>
 
-Ex
+Ex<br/>
 
 ```kotlin
 fun main() {

@@ -2,7 +2,7 @@
 title: 이미지 포맷
 layout: default
 parent: Etc
-nav_order: 1
+nav_order: 1.1
 ---
 
 ## 여러 이미지 포맷은 언제 사용될까?

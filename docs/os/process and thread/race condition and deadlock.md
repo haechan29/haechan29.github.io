@@ -3,7 +3,7 @@ title: 경쟁 상태와 교착 상태
 layout: default
 parent: Process, Thread
 grand_parent: OS
-nav_order: 5
+nav_order: 3.1
 ---
 
 ## 경쟁 상태와 교착 상태

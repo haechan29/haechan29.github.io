@@ -3,7 +3,7 @@ title: Context Switching
 layout: default
 parent: Process, Thread
 grand_parent: OS
-nav_order: 3
+nav_order: 2.1
 ---
 
 ## 스레드의 컨텍스트 스위칭 비용은 왜 프로세스보다 저렴할까?

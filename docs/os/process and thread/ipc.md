@@ -3,7 +3,7 @@ title: IPC
 layout: default
 parent: Process, Thread
 grand_parent: OS
-nav_order: 4
+nav_order: 3
 ---
 
 ## IPC란?
