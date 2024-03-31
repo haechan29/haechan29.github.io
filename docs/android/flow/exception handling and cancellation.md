@@ -17,8 +17,8 @@ nav_order: 3
 - Flow가 취소되어도 정상 동작으로 간주된다. 따라서 Flow#catch()에 검출되지 않고 onCompletion()으로 이동한다.<br/>
 
 ### 취소 상태 직접 확인하기
-- ensureActive(): 코루틴이 취소되었다면 CancellationException를 발생시킨다.<br/>
-- Job#isActive: onEach() 내부에서 코루티의 상태를 확인.<br/>
+- CoroutineContext#ensureActive(): 코루틴이 취소되었다면 CancellationException를 발생시킨다.<br/>
+- Job#isActive: onEach() 내부에서 코루틴의 상태를 확인.<br/>
 - [cancellable()] [2]: onEach() 내부에서 isActive를 확인하는 것과 같다.<br/><br/>
 
 <sup>1</sup>Exception Transparency: 예외는 Downstream으로 전달되어야 한다.<br/>
