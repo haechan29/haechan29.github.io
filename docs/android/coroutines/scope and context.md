@@ -28,7 +28,7 @@ nav_order: 2
 <sup>1</sup>SupervisorJob: 자식 코루틴이 발생시킨 예외를 전파하지 않는다.<br/>
 
 [1]: structured%20concurrency.html
-[2]: job.html
+[2]: job%20and%20lifecycle.html
 [3]: dispatcher.html
 [4]: exception%20handling.html
 [5]: https://jisungbin.medium.com/dispatchers-main-immediate-의-대한-이해-9f073be21e5a

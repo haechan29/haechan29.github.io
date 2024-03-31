@@ -16,4 +16,4 @@ nav_order: 2.12
 - coroutineScope()는 동기적으로 실행되므로 부모 코루틴에서 try-catch를 통해 예외를 처리할 수 있다.
 - SupervisorJob을 사용하면 자식 코루틴이 발생시킨 예외를 전파하지 않는다.<br/><br/>
 
-<sup>1</sup>CoroutineScope()로부터 바로 생성된 Coroutine 또는 SupervisorJob의 자식.</br>
+<sup>1</sup>CoroutineScope()로부터 바로 생성된 Coroutine 또는 SupervisorJob의 자식.<br/>

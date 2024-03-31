@@ -3,7 +3,7 @@ title: Suspend function
 layout: default
 parent: Coroutines
 grand_parent: Android
-nav_order: 2
+nav_order: 1.2
 ---
 
 ## Suspend Function이란?
