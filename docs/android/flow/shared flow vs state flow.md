@@ -15,7 +15,7 @@ nav_order: 6
 ### StateFlow
 - Replay 횟수는 1이고 초기값을 갖도록 커스텀된 SharedFlow.<br/>
 - MutableStateFlow() 또는 stateIn()을 통해 생성한다.<br/>
-- MutableStateFlow#value를 통해 현재 값에 접근 가능하지만, Thread-safe하지 않다.<br/>
+- MutableStateFlow#value를 통해 현재 값에 접근 가능하지만, Thread-safe하지 않다.<br/><br/>
     ```kotlin
     // value를 통해 직접 접근하는 경우
     val flow1 = MutableStateFlow(0)

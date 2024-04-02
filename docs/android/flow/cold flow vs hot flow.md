@@ -14,6 +14,6 @@ nav_order: 5
 - Ex. Flow Builder을 통해 생성되는 Flow.<br/> 
 
 ### Hot Flow
-- Collector가 없어도 활성화된다.<br/>
+- Collector가 없어도 활성화될 수 있다.<br/>
 - Emit하는 데이터를 모든 Collector가 공유한다.<br/>
 - Ex. SharedFlow, StateFlow.<br/>
