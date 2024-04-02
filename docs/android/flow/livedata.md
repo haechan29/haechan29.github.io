@@ -12,9 +12,7 @@ nav_order: 4
 - Flow는 액티비티의 생명 주기를 고려하지 않는다(액티비티가 파괴되어도 계속 실행된다).<br/>
 
 ### 생명 주기 반영하기
-1. 생명 주기 메서드 직접 이용하기.<br/><br/>
-
-    Ex<br/>
+1. 생명 주기 메서드 직접 이용하기.<br/>
     ```kotlin
     val job: Job? = null
     
@@ -32,9 +30,9 @@ nav_order: 4
     ```
     <br/>
 
-2. [repeatOnLifecycle()] [1]: Suspend Function.<br/><br/>
-
-    Ex<br/>
+2. [repeatOnLifecycle()] [1] 이용하기.<br/>
+- Suspend Function.<br/>
+- 
     ```kotlin
     lifecycleScope.launch {
         repeatOnLifecycle(Lifecycle.State.STARTED) {
@@ -45,9 +43,7 @@ nav_order: 4
     ``` 
     <br/>
 
-3. [flowWithLifecycle()] [2]: NOT Suspend Function.<br/><br/>
-
-    Ex<br/>
+3. [flowWithLifecycle()] [2]: NOT Suspend Function.<br/>
     ```kotlin
     lifecycleScope.launch {
         exampleViewModel.exampleFlow

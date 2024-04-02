@@ -25,4 +25,4 @@ nav_order: 3
 <sup>2</sup>협력적 취소 모델: 취소 요청이 발생했을 때 안전하게 작업을 중단하도록 "협력"하는 방식. 실행 중인 작업을 강제로 취소하는 대신, 작업을 실행하면서 취소 요청을 주기적으로(중단점마다) 확인한다.<br/>
 
 [1]: https://simplecode.kr/42
-[1]: https://kotlinlang.org/api/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines.flow/cancellable.html
+[2]: https://kotlinlang.org/api/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines.flow/cancellable.html

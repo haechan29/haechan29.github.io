@@ -3,7 +3,7 @@ title: 인터럽트
 layout: default
 parent: Process, Thread
 grand_parent: OS
-nav_order: 2
+nav_order: 1.2
 ---
 
 ## 인터럽트란?
