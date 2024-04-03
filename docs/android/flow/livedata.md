@@ -32,7 +32,8 @@ nav_order: 4
 
 2. [repeatOnLifecycle()] [1] 이용하기.<br/>
 - Suspend Function.<br/>
-- 
+- Coroutine Scope 내부에서 호출할 수 있다.<br/>
+
     ```kotlin
     lifecycleScope.launch {
         repeatOnLifecycle(Lifecycle.State.STARTED) {
@@ -43,7 +44,10 @@ nav_order: 4
     ``` 
     <br/>
 
-3. [flowWithLifecycle()] [2]: NOT Suspend Function.<br/>
+3. [flowWithLifecycle()] [2] 이용하기.<br/>
+- NOT Suspend Function.<br/>
+- Lifecycle과 연동되는 Flow를 반환한다. 별도의 Coroutine Scope를 통해 구독해야 한다.<br/>
+
     ```kotlin
     lifecycleScope.launch {
         exampleViewModel.exampleFlow
