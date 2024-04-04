@@ -2,7 +2,7 @@
 title: Library vs Framework
 layout: default
 parent: Etc
-nav_order: 12
+nav_order: 13
 ---
 
 ## Library vs Framework
@@ -17,7 +17,7 @@ nav_order: 12
 - [흐름을 직접 제어한다.] [4] 개발자가 수행할 수 있는 작업이 제한적이다.<br/>
 - Ex. 웹 애플리케이션 개발을 위한 Ruby on Rails, Spring 등.<br/>
 
-[1]: https://docs.google.com/document/u/0/
+[1]: https://ko.wikipedia.org/wiki/라이브러리_(컴퓨팅)
 [2]: /docs/os/basic/build.html
 [3]: https://ko.wikipedia.org/wiki/소프트웨어_프레임워크
 [4]: inversion%20of%20control.html
