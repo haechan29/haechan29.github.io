@@ -1,8 +1,9 @@
 ---
 title: Companion Object
 layout: default
-parent: Etc
-nav_order: 13.1
+parent: Basic
+grandparent: Java, Kotlin
+nav_order: 4.1
 ---
 
 ## Companion Object란?

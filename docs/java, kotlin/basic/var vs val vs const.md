@@ -1,8 +1,9 @@
 ---
 title: Var vs Val vs Const
 layout: default
-parent: Etc
-nav_order: 12
+parent: Basic
+grandparent: Java, Kotlin
+nav_order: 1
 ---
 
 ## Var vs Val vs Const

@@ -1,8 +1,9 @@
 ---
 title: Dependency Injection
 layout: default
-parent: Etc
-nav_order: 8.2
+parent: OOP
+grandparent: Java, Kotlin
+nav_order: 1.41
 ---
 
 ## Dependency Injection이란?
@@ -18,5 +19,5 @@ nav_order: 8.2
 
 <sup>1</sup>의존성: 한 객체가 다른 객체를 참조하는 것.<br/>
 
-[1]: inversion%20of%20control.html
+[1]: /docs/etc/inversion%20of%20control.html
 [2]: https://velog.io/@tco0427/DIDependency-Injection와-서비스-로케이터

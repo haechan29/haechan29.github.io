@@ -1,8 +1,9 @@
 ---
 title: Backing Field/Property
 layout: default
-parent: Etc
-nav_order: 11
+parent: Basic
+grandparent: Java, Kotlin
+nav_order: 2
 ---
 
 ## Backing Field/Properties란?

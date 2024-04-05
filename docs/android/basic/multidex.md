@@ -15,4 +15,4 @@ nav_order: 1
 - Application 클래스에서 MultiDexApplication을 상속받거나 MultiDex.install(this)를 호출하여 초기화.<br/>
 - Android 5.0 (API 레벨 21) 이상에서는 ART(Android Runtime)가 기본 런타임으로 사용되며, ART는 실행 시간에 자동으로 Multidex를 지원하기 때문에 추가 설정이 필요 없다.<br/>
 
-[1]: android%20build.html
+[1]: build.html

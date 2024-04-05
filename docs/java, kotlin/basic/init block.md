@@ -1,8 +1,9 @@
 ---
 title: Init Block
 layout: default
-parent: Etc
-nav_order: 13.2
+parent: Basic
+grandparent: Java, Kotlin
+nav_order: 3
 ---
 
 ## Init Block은 어떤 역할을 할까?
@@ -23,5 +24,5 @@ Static 변수 초기화 -> Static Block -> Instance 변수 초기화 -> Instance
 
 <sup>1</sup>[Companion Object] [2]는 Singleton 패턴과 유사한 방식으로 구현된다. 클래스 내부에 Companion 클래스를 선언하고, Companion 객체를 생성한다. 따라서 Companion Object를 포함하는 클래스가 로딩될 때 Companion Object 내부의 Init Block이 실행된다.<br/> 
 
-[1]: class%20loading.html
+[1]: /docs/android/basic/class%20loading.html
 [2]: companion%20object.html

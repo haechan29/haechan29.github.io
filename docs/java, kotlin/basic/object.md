@@ -1,8 +1,9 @@
 ---
 title: Object
 layout: default
-parent: Etc
-nav_order: 13
+parent: Basic
+grandparent: Java, Kotlin
+nav_order: 4
 ---
 
 ## Object란?

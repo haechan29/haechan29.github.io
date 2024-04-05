@@ -2,7 +2,7 @@
 title: Inversion of Control
 layout: default
 parent: Etc
-nav_order: 8.1
+nav_order: 8
 ---
 
 ## Inversion of Control이란?
@@ -13,4 +13,4 @@ nav_order: 8.1
 - 프레임워크가 작업 방식을 정의하기 때문에 기능 구현에 집중할 수 있다.<br/>
 
 [1]: library%20vs%20framework.html
-[2]: dependency%20injection.html
+[2]: /docs/java,%20kotlin/oop/dependency%20injection.html
