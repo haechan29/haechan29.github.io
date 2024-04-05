@@ -1,5 +1,5 @@
 ---
-title: OOP
+title: Java, Kotlin
 layout: default
 has_children: true
 nav_order: 2
