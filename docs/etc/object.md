@@ -7,9 +7,9 @@ nav_order: 13
 
 ## Object란?
 ### Object
-- ``class`` 키워드 대신 ``object`` 키워드를 사용하여 **Singleton**을 생성한다.</br>
+- ``class`` 키워드 대신 ``object`` 키워드를 사용하여 **Singleton**을 생성한다.<br/>
 - 일반 클래스처럼 필드, 메서드, 초기화 블록을 가질 수 있지만 생성자는 가질 수 없다.<br/>
-- Object 선언, Object 식<sup>1</sup>, Companion Object에 이용된다.<br/>
+- Object 선언, Object 식<sup>1</sup>, [Companion Object] [1]에 이용된다.<br/>
 - 클래스를 상속 받을 수 있고, 여러 개의 인터페이스를 구현할 수 있다. 다른 클래스가 Object를 상속할 수는 없다.<br/>
 
 ### 원리
@@ -30,6 +30,7 @@ nav_order: 13
         @NotNull
         public static final ExampleObject INSTANCE;
     
+        // Object의 멤버는 위의 객체를 통해 접근한다.
         private static final int exampleField;
         public final int getExampleField() {
             return exampleField;
@@ -37,6 +38,7 @@ nav_order: 13
        
         public final void method() {}
     
+        // 생성자를 호출할 수 없다.
         private ExampleObject() {}
     
         // 객체는 정적 블럭을 통해 초기화된다.
@@ -49,6 +51,7 @@ nav_order: 13
 
 <br/>
 
-<sup>1</sup>: Object 식: Object를 반환하는 식. 필드에 할당될 경우 Java의 [Static Inner Class] [1], 메서드 내에서 생성될 경우 [Local Inner Class] [1], 익명 Object를 생성하는 경우 [Anonymous Inner Class] [1]에 해당한다.<br/>
+<sup>1</sup>Object 식: Object를 반환하는 식. 필드에 할당될 경우 Java의 [Static Inner Class] [2], 메서드 내에서 생성될 경우 [Local Inner Class] [2], 익명 Object를 생성하는 경우 [Anonymous Inner Class] [2]에 해당한다.<br/>
 
-[1]: https://hyunki99.tistory.com/13
+[1]: companion%20object.html
+[2]: https://hyunki99.tistory.com/13
