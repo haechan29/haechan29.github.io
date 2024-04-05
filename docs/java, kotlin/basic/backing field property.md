@@ -2,7 +2,7 @@
 title: Backing Field/Property
 layout: default
 parent: Basic
-grandparent: Java, Kotlin
+grand_parent: Java, Kotlin
 nav_order: 2
 ---
 

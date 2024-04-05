@@ -2,7 +2,7 @@
 title: Companion Object
 layout: default
 parent: Basic
-grandparent: Java, Kotlin
+grand_parent: Java, Kotlin
 nav_order: 4.1
 ---
 

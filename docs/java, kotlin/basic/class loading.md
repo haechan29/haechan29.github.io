@@ -2,8 +2,8 @@
 title: Class Loading
 layout: default
 parent: Basic
-grand_parent: Android
-nav_order: 3
+grand_parent: Java, Kotlin
+nav_order: 6.1
 ---
 
 ## Class는 어떻게 메모리에 로드될까?

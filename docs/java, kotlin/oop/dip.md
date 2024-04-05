@@ -1,8 +1,8 @@
 ---
 title: DIP
 layout: default
-parent: OOP
-grandparent: Java, Kotlin
+parent: 객체 지향
+grand_parent: Java, Kotlin
 nav_order: 1.4
 ---
 
