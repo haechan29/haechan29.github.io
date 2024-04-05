@@ -3,12 +3,12 @@ title: Class Loading
 layout: default
 parent: Basic
 grand_parent: Java, Kotlin
-nav_order: 6.1
+nav_order: 7
 ---
 
 ## Class는 어떻게 메모리에 로드될까?
 ### Class Loading
-클래스 로더는 클래스가 처음 참조될 때 JVM의 메모리에 로딩한다.<br/>
+[클래스 로더] [1]는 클래스가 처음 참조될 때 JVM의 메모리에 로딩한다.<br/>
 
 1. 로드(Load)
    - JVM이 클래스 파일을 메모리로 가져오는 과정.<br/>
@@ -28,4 +28,5 @@ nav_order: 6.1
 <sup>1</sup>클래스가 참조되기만 하고 정적 변수에 접근하거나 인스턴스를 생성하는 등 사용되지 않으면 초기화 단계는 진행되지 않을 수 있다.<br/>
 <sup>2</sup>정적 변수가 먼저 초기화되고, 정적 블록이 실행된다. 마찬가지로 인스턴스 변수가 먼저 초기화되고, 인스턴스 블록이 실행된다. 생성자는 마지막으로 실행된다.<br/>
 
-[1]: init%20block.html
+[1]: jvm%20component.html
+[2]: init%20block.html
