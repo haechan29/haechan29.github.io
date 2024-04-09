@@ -18,20 +18,20 @@ nav_order: 4
 
 3. 드로잉.<br/>
    - 뷰의 크기와 위치가 결정되면, [onDraw()] [1] 메서드가 호출된다. Canvas 객체가 제공되며, 이를 통해 뷰를 그린다.<br/>
-   - Canvas 외에도 [OpenGL ES] [2], [Vulkan] [3] 등을 사용할 수 있다.<br/><br/>
+   - Canvas 외에도 복잡한 그래픽 처리를 위해 [OpenGL ES] [2], [Vulkan] [3] 등을 사용할 수 있다.<br/><br/>
    
 4. 렌더링.<br/>
-   - 캔버스 위에 그린 그림이 GPU에 의해 렌더링되어 Surface<sup>4</sup> 객체에 저장된다.<br/>
+   - 캔버스에 그린 그림이 GPU에 의해 렌더링되어 Surface<sup>4</sup> 객체에 저장된다.<br/>
    - Window Manager가 모든 Window의 메타데이터를 SurfaceFlinger로 전송한다.<br/>
    - SurfaceFlinger는 각각의 Surface를 합성하여 최종 이미지를 생성한다.<br/><br/>
 
 5. 화면 리프레시.<br/>
-   - 화면의 리프레시율(Ex. 60Hz)에 맞춰 [VSync] [4] 신호가 발생하고 화면이 리프레시된다.<br/><br/>
+   - 화면의 리프레시율(Ex. 60Hz)에 맞춰 [VSYNC] [4] 신호가 발생하고 화면이 리프레시된다.<br/><br/>
 
 <sup>1</sup>화면을 구성하는 단위. 하나의 Window는 하나의 레이아웃(뷰 객체 트리)와 매칭된다. WindowManager<sup>2</sup>을 통해 관리된다.<br/>
 <sup>2</sup>Window의 생명 주기, 입력 및 포커스 이벤트, 화면 방향, 전환, 애니메이션, 위치, 변환, Z-order 등을 관리한다.<br/>
 <sup>3</sup>레이아웃을 뷰 객체 트리로 변환하는 작업.<br/>
-<sup>4</sup>화면에 그림을 그리기 위한 인터페이스. GPU가 복잡한 그래픽 처리를 할때 사용된다. Window마다 하나씩만 존재하고, 내부적으로 이중 버퍼링<sup>5</sup>을 사용한다. SurfaceFlinger를 통해 관리된다.<br/>
+<sup>4</sup>화면에 그림을 그리기 위한 인터페이스. Window마다 하나씩만 존재하고, 내부적으로 이중 버퍼링<sup>5</sup>을 사용한다.<br/>
 <sup>5</sup>화면에 표시되는 Front Buffer와 그림을 그리는 Back Buffer, 두 개의 그래픽 버퍼를 사용하는 방식. Back Buffer는 Lock 메커니즘을 통해 접근이 제어된다.<br/>
 
 [1]: view%20lifecycle.html
