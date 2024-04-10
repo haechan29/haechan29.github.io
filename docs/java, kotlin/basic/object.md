@@ -10,7 +10,7 @@ nav_order: 4
 ### Object
 - ``class`` 키워드 대신 ``object`` 키워드를 사용하여 **Singleton**을 생성한다.<br/>
 - 일반 클래스처럼 필드, 메서드, 초기화 블록을 가질 수 있지만 생성자는 가질 수 없다.<br/>
-- Object 선언, Object 식<sup>1</sup>, [Companion Object] [1]에 이용된다.<br/>
+- Object 선언<sup>1</sup>, Object 식<sup>2</sup>, [Companion Object] [1]에 이용된다.<br/>
 - 클래스를 상속 받을 수 있고, 여러 개의 인터페이스를 구현할 수 있다. 다른 클래스가 Object를 상속할 수는 없다.<br/>
 
 ### 원리
@@ -52,7 +52,8 @@ nav_order: 4
 
 <br/>
 
-<sup>1</sup>Object 식: Object를 반환하는 식. 필드에 할당될 경우 Java의 [Static Inner Class] [2], 메서드 내에서 생성될 경우 [Local Inner Class] [2], 익명 Object를 생성하는 경우 [Anonymous Inner Class] [2]에 해당한다.<br/>
+<sup>1</sup>클래스 내부에 선언할 경우 Java의 [Static Inner Class] [2], 메서드 내에서 선언할 경우 [Local Inner Class] [2]처럼 동작한다.<br/>
+<sup>2</sup>Object를 반환하는 식. 익명 Object를 생성하는 경우 Java의 [Anonymous Inner Class] [2]처럼 동작한다.<br/>
 
 [1]: companion%20object.html
 [2]: https://hyunki99.tistory.com/13

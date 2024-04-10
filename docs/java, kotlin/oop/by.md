@@ -11,25 +11,25 @@ nav_order: 2.11
 1. 클래스 위임<br/>
     - Class를 선언할 때 ``by`` 키워드를 사용하여 위임할 수 있다.<br/>
     - 구현되지 않은 내용만 위임 객체에 의해 구현된다.<br/>
-   - [위임 객체는 내부적으로 필드로 선언되어 사용된다.] [1]<br/>
+    - [위임 객체는 내부적으로 필드로 선언되어 사용된다.] [1]<br/>
         ```kotlin
-            interface ExampleInterface {
-                fun exampleMethod()
-            }
+        interface ExampleInterface {
+            fun exampleMethod()
+        }
 
-            class Delegator(exampleInterfaceImpl: ExampleInterface): ExampleInterface by delegatee
-            // 내부적으로 위임 객체를 저장할 필드가 선언되고, 생성자 매개변수로 전달받은 위임 객체를 저장한다.
+        class Delegator(exampleInterfaceImpl: ExampleInterface): ExampleInterface by delegatee
+        // 내부적으로 위임 객체를 저장할 필드가 선언되고, 생성자 매개변수로 전달받은 위임 객체를 저장한다.
   
-            fun main() {
-                val exampleInterfaceImpl = object: ExampleInterface {
-                    override fun exampleMethod() { 
-                        // ... 
-                    } 
-                }
-
-                val delegator = Delegator(exampleInterfaceImpl)
-                delegator.exampleMethod() // exampleInterfaceImpl의 exampleMethod()가 실행된다.
+        fun main() {
+            val exampleInterfaceImpl = object: ExampleInterface {
+                override fun exampleMethod() { 
+                    // ... 
+                } 
             }
+
+            val delegator = Delegator(exampleInterfaceImpl)
+            delegator.exampleMethod() // exampleInterfaceImpl의 exampleMethod()가 실행된다.
+        }
         ```
         <br/>
 
