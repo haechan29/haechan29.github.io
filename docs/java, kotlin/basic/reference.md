@@ -9,12 +9,11 @@ nav_order: 8
 ## 여러 가지 Reference
 ### Strong Reference
 - 일반적인 참조 형태.<br/>
-- 객체가 참조되는 동안에는 GC에 의해 수집되지 않는다.<br/>
+- 객체가 참조되는 동안에는 [GC] [1]에 의해 수집되지 않는다.<br/>
 
 ### Weak Reference
 - Strong Reference와 다르게 GC에 의해 수집될 수 있다.<br/>
-- Ex. WeakHashMap은 키를 약한 참조로 저장한다. 즉, 키가 참조되지 않으면 해당하는 엔트리는 Map에서 삭제된다.<br/>
-- Ex. Listener에서 외부 객체를 참조할 때는 약한 참조를 사용해야 한다.<br/>
+- Ex. WeakHashMap<sup>1</sup>, Listener<sup>2</sup>.<br/>
     ```kotlin
     exampleButton.setOnClickListener(object: View.OnClickListener {
         // 액티비티를 약하게 참조한다.
@@ -50,3 +49,9 @@ nav_order: 8
         // 정리 작업 수행. Ex. 리소스 해제.
     }
     ```
+    <br/>
+
+<sup>1</sup>키를 약한 참조로 저장한다. 즉, 키가 참조되지 않으면 해당하는 엔트리는 Map에서 삭제된다.<br/>
+<sup>2</sup>Listener에서 외부 객체를 참조할 때는 약한 참조를 사용해야 한다.<br/>
+
+[1]: /docs/etc/garbage%20collection.html

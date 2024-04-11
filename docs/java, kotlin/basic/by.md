@@ -17,18 +17,18 @@ nav_order: 9
             fun exampleMethod()
         }
 
-        class Delegator(exampleInterfaceImpl: ExampleInterface): ExampleInterface by delegatee
-        // 내부적으로 위임 객체를 저장할 필드가 선언되고, 생성자 매개변수로 전달받은 위임 객체를 저장한다.
+        class Delegator(delegatee: ExampleInterface): ExampleInterface by delegatee
+        // 내부적으로 위임 객체를 저장할 필드가 선언된다. 실제 구현은 해당 필드를 통해 이루어진다.
   
         fun main() {
             val exampleInterfaceImpl = object: ExampleInterface {
                 override fun exampleMethod() { 
-                    // ... 
+                    println("Example method executed.")
                 } 
             }
 
             val delegator = Delegator(exampleInterfaceImpl)
-            delegator.exampleMethod() // exampleInterfaceImpl의 exampleMethod()가 실행된다.
+            delegator.exampleMethod() // "Example method executed."가 출력된다.
         }
         ```
         <br/>

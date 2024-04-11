@@ -14,7 +14,7 @@ nav_order: 5
 ### 비대칭키 암호화(공개 키 암호화)<sup>1</sup>
 - 암호화와 복호화에 공개 키와 비밀 키를 사용한다. 한 키로 암호화된 데이터는 반대 키로만 복호화할 수 있다.<br/>
 - 보안성이 뛰어나지만 처리 속도가 느리다.<br/>
-- Ex. RSA, ECC<sup>Elliptic Curve Cryptography</sup>, DSA<sup>Digital Signature Algorithm</sup>.</br>
+- Ex. RSA, ECC<sup>Elliptic Curve Cryptography</sup>, DSA<sup>Digital Signature Algorithm</sup>.<br/>
 
 ### 하이브리드 암호화
 - 비대칭키 암호화를 사용하여 개인키를 안전하게 교환한 다음, 나머지 데이터 전송에는 대칭키 암호화를 사용한다.<br/>
