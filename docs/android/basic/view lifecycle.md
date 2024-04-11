@@ -6,7 +6,7 @@ grand_parent: Android
 nav_order: 4.1
 ---
 
-## View의 생명주기는 어떻게 구성될까?
+## View의 생명 주기는 어떻게 구성될까?
 ### View의 생명 주기
 1. constructor(): 뷰의 인스턴스를 생성.<br/>
 2. onFinishInflate(): XML을 통해 뷰가 인플레이트된 후 호출된다.<br/>
