@@ -8,7 +8,7 @@ nav_order: 9
 
 ## Fragment란?
 ### Fragment
-- 화면을 다양하게 구성하기 위한 UI 요소.<br/>
+- 다양한 해상도의 화면을 지원하기 위한 UI 요소.<br/>
 - 단독으로 실행될 수 없고 Activity, Fragment 등의 UI 요소에서 실행되어야 한다. <br/>
 
 ### 특징
