@@ -16,8 +16,8 @@ nav_order: 8
 - Ex. WeakHashMap은 키를 약한 참조로 저장한다. 즉, 키가 참조되지 않으면 해당하는 엔트리는 Map에서 삭제된다.<br/>
 - Ex. Listener에서 외부 객체를 참조할 때는 약한 참조를 사용해야 한다.<br/>
     ```kotlin
-    exampleButton.setOnClickListener(object : View.OnClickListener {
-        // Activity를 약하게 참조한다.
+    exampleButton.setOnClickListener(object: View.OnClickListener {
+        // 액티비티를 약하게 참조한다.
         val weakActivity = WeakReference(this@ExampleActivity)
 
         override fun onClick(view: View?) {
@@ -28,6 +28,7 @@ nav_order: 8
         }
     })
     ```
+    <br/>
 
 ### Soft Reference
 - 메모리가 부족해지면 GC에 의해 회수된다.<br/>
@@ -37,7 +38,7 @@ nav_order: 8
 - 객체가 GC에 의해 회수되기 직전에 정리 작업을 수행할 기회를 제공한다.<br/>
     ```kotlin
     val queue = ReferenceQueue<Object>()
-    val importantObject = Object()
+    var importantObject = Object()
     val phantomReference = PhantomReference<Object>(importantObject, queue)
    
     importantObject = null

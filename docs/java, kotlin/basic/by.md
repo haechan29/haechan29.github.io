@@ -1,9 +1,9 @@
 ---
 title: by 키워드
 layout: default
-parent: 객체 지향
+parent: Basic
 grand_parent: Java, Kotlin
-nav_order: 2.11
+nav_order: 9
 ---
 
 ## by 키워드를 사용하여 위임하기

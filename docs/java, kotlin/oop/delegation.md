@@ -13,4 +13,4 @@ nav_order: 2.1
 - 위임 객체를 호출하는 보일러 플레이트가 발생한다. (Kotlin에서는 [by 키워드] [1]를 통해 보일러 플레이트를 없앨 수 있다.)<br/><br/>
 
 [1]: composition%20vs%20inheritance.html
-[2]: by.html
+[2]: /docs/java,%20kotlin/basic/by.html
