@@ -1,7 +1,7 @@
 ---
 title: 쿠키 vs 세션
 layout: default
-parent: Http
+parent: HTTP
 grand_parent: Network
 nav_order: 6
 ---

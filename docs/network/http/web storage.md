@@ -1,7 +1,7 @@
 ---
 title: 웹 스토리지
 layout: default
-parent: Http
+parent: HTTP
 grand_parent: Network
 nav_order: 7
 ---

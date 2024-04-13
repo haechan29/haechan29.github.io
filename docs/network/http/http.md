@@ -1,7 +1,7 @@
 ---
 title: HTTP
 layout: default
-parent: Http
+parent: HTTP
 grand_parent: Network
 nav_order: 1
 ---
