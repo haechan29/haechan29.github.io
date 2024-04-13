@@ -16,5 +16,5 @@ nav_order: 4
 ### 인덱스가 PK에 의존하는 구조의 단점
 - 인덱스를 통해 검색할 때 PK로 다시 한번 검색해야 하므로 처리 성능이 느립니다.
 
-[1]: index.html
+[1]: database%20index.html
 [2]: pk.html
