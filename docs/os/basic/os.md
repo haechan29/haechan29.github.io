@@ -31,7 +31,7 @@ nav_order: 1
 
 <br/>
 
-<sup>1</sup>모드빗(Modebit): 모드빗이 0인 상태.<br/>
+<sup>1</sup>모드빗(Modebit): 시스템콜의 모드를 결정하는 플래그 변수.<br/>
 <sup>2</sup>커널 모드(Kernel mode): 커널 영역의 코드를 실행할 수 있는 모드. 모드빗이 0인 상태.<br/>
 <sup>3</sup>사용자 모드(User mode): 커널 영역의 코드를 실행할 수 없는 모드. 모드빗이 1인 상태.<br/>
 

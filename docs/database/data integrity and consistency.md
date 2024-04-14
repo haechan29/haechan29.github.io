@@ -2,7 +2,7 @@
 title: 데이터 무결성과 정합성 
 layout: default
 parent: Database
-nav_order: 5
+nav_order: 10
 ---
 
 ## 데이터 무결성과 정합성
