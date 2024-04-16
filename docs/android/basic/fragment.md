@@ -3,7 +3,7 @@ title: Fragment
 layout: default
 parent: Basic
 grand_parent: Android
-nav_order: 9
+nav_order: 2
 ---
 
 ## Fragment란?

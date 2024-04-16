@@ -3,7 +3,7 @@ title: 안드로이드의 렌더링 과정
 layout: default
 parent: Basic
 grand_parent: Android
-nav_order: 4
+nav_order: 3.1
 ---
 
 ## 앱 화면은 어떻게 그려질까?

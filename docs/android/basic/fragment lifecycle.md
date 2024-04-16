@@ -3,7 +3,7 @@ title: Fragment Lifecycle
 layout: default
 parent: Basic
 grand_parent: Android
-nav_order: 9.1
+nav_order: 2.1
 ---
 
 ## Fragment의 생명 주기는 어떻게 구성될까?

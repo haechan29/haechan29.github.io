@@ -3,7 +3,7 @@ title: Multidex
 layout: default
 parent: Basic
 grand_parent: Android
-nav_order: 1
+nav_order: 9
 ---
 
 ## Multidex란?

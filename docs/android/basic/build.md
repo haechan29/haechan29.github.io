@@ -3,7 +3,7 @@ title: 안드로이드 앱의 빌드 과정
 layout: default
 parent: Basic
 grand_parent: Android
-nav_order: 2
+nav_order: 10
 ---
 
 ## 안드로이드 앱은 어떻게 빌드되나요?

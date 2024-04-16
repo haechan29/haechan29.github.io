@@ -3,7 +3,7 @@ title: APK vs AAB
 layout: default
 parent: Basic
 grand_parent: Android
-nav_order: 2.1
+nav_order: 10.2
 ---
 
 ## AAB vs APK

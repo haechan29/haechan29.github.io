@@ -3,7 +3,7 @@ title: Dalvik vs ART
 layout: default
 parent: Basic
 grand_parent: Android
-nav_order: 2.1
+nav_order: 10.1
 ---
 
 ## Dalvik vs ART

@@ -3,7 +3,7 @@ title: View Lifecycle
 layout: default
 parent: Basic
 grand_parent: Android
-nav_order: 4.1
+nav_order: 3
 ---
 
 ## View의 생명 주기는 어떻게 구성될까?
