@@ -1,12 +1,12 @@
 ---
-title: 4대 컴포넌트
+title: 안드로이드의 4대 컴포넌트
 layout: default
 parent: Basic
 grand_parent: Android
 nav_order: 1
 ---
 
-## 안드로이드의 기본 컴포넌트는 무엇일까?
+## 안드로이드의 구성 요소는?
 ### 안드로이드의 4대 컴포넌트
 1. Activity<br/>
    - 사용자와 상호작용을 담당하는 인터페이스.<br/>
