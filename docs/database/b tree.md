@@ -2,7 +2,7 @@
 title: B-Tree
 layout: default
 parent: Database
-nav_order: 1.1
+nav_order: 2.1
 ---
 
 ## B-Tree란?

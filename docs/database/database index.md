@@ -2,7 +2,7 @@
 title: Index
 layout: default
 parent: Database
-nav_order: 1
+nav_order: 2
 ---
 
 ## 인덱스란?
