@@ -7,7 +7,7 @@ nav_order: 1
 ---
 
 ## 테스트를 작성할 때 주의할 점
-{: .no_toc }
+{: .no_toc } 
 
 ### Table of contents
 {: .no_toc .text-delta }
