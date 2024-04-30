@@ -9,14 +9,13 @@ nav_order: 1
 ## 테스트를 작성할 때 주의할 점
 {: .no_toc }
 
-<details open markdown="block">
-  <summary>
-    Table of contents
-  </summary>
-  {: .text-delta }
-- TOC
+### Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
 {:toc}
-</details>
+
+---
 
 ### 원칙
 
