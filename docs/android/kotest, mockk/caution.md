@@ -4,10 +4,20 @@ layout: default
 parent: Kotest, MockK
 grand_parent: Android
 nav_order: 1
-toc: true
 ---
 
 ## 테스트를 작성할 때 주의할 점
+{: .no_toc }
+
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+- TOC
+{:toc}
+</details>
+
 ### 원칙
 {: .highlight }
 프로그래머에 의해 구현되어서는 안되는 내용은 테스트도 이루어지면 안된다.<br/>
