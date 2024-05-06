@@ -26,6 +26,7 @@ context("로그인하면") {
     repository.login(id, password)
         
     test("서버로 로그인 요청을 전송한다") {
+        // 로그인 요청이 아이디와 비밀번호를 포함한다는 것을 알 수 있다
         val request = LoginRequest(id, password)
         
         coVerify { server.send(request) }
