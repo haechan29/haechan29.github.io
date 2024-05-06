@@ -1,8 +1,7 @@
 ---
 title: 테스트 원칙(1)
 layout: default
-parent: Kotest, MockK
-grand_parent: Android
+parent: Test
 nav_order: 1.1
 ---
 
