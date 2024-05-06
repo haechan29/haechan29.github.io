@@ -1,43 +1,62 @@
 ---
-title: 테스트 원칙(1)
+title: 테스트 원칙(2)
 layout: default
 parent: Kotest, MockK
 grand_parent: Android
-nav_order: 1
+nav_order: 1.2
 ---
 
-## 테스트 원칙(1)
-### 요구 사항을 위반하는 테스트 작성하지 않기
-- 프로그래머는 요구 사항을 준수하기 위해 특정 코드에 대한 접근을 제어할 수 있다.<br/>
-- 하지만 테스트가 요구 사항을 위반하면, 실제 코드도 요구 사항을 위반할 수 있다.<br/>
-- 따라서 테스트 또한 요구 사항을 준수해야 한다. 즉, 요구 사항을 위반하는 테스트는 작성하지 않아야 한다.<br/><br/>
+## 테스트 원칙(2)
+### 공개하지 않아야 않아야 하는 데이터를 검증하는 테스트 작성하지 않기
+로그인 요청이 무엇을 포함하는지 겉으로 드러나기 때문이다. 로그인 정보는 숨겨야 하는 내용이다.<br/><br/>
 
-### 예시
-- 요구 사항<br/>
-   1. 로그인 과정은 (1)아이디, 비밀번호의 유효성을 검사하고 (2)로그인 요청을 생성하는 단계를 포함한다.<br/>
-   2. 두 단계는 분리되어선 안된다. 즉, 로그인 요청을 전송하기에 앞서 반드시 아이디, 비밀번호의 유효성을 검사해야 한다.<br/><br/>
+예를 들어 로그인 요청을 서버로 전송하는 메서드가 있다고 해보자.<br/>
+```kotlin
+suspend fun login(id: String, password: String) {
+    val request = LoginRequest(id, password)
+    server.send(request)
+}
+```
+<br/>
 
-    ```kotlin
-    suspend fun login(id: String, password: String) {
-        // 1. 아이디와 비밀번호의 유효성 검사
-        if (!validator.isValid(id, password)) {
-            // 로그인 실패 처리
-        }
+이 메서드를 테스트하기 위해 아래와 같은 테스트를 작성했다고 해보자.<br/>
+- 로그인하면 서버로 로그인 요청을 전송한다<br/><br/>
+
+해당 테스트를 MockK을 이용해서 작성하면 아래와 같다.<br/>
+```kotlin
+when("로그인하면") {
+    repository.login(id, password)
         
-        // 2. 로그인 요청 생성
-        val request = LoginRequestBuilder.build(id, password)
+    then("서버로 로그인 요청을 전송한다") {
+        val request = LoginRequest(id, password)
         
-        // 로그인 요청 전송 처리
+        coVerify { server.send(request) }
     }
-    ```
-    <br/>
+}
+```
+<br/>
 
-- 요구 사항을 준수하는 테스트<br/>
-   - 유효하지 않은 아이디를 입력하면 로그인이 실패한다<br/>
-   - 유효하지 않은 비밀번호를 입력하면 로그인이 실패한다<br/>
-   - 유효한 아이디와 비밀번호를 입력하면 로그인 요청을 생성한다<br/><br/>
+이러한 테스트는 작성되어선 안된다. 왜냐하면 로그인 요청이 무엇을 포함하는지 겉으로 드러나기 때문이다. 로그인 정보는 숨겨야 하는 내용이다.<br/><br/>
 
-- 요구 사항을 위반하는 테스트
-   - 로그인 요청을 생성하면 로그인 요청을 전송한다<sup>1</sup>.<br/><br/>
+따라서 서버로 로그인 요청이 전송되었는지는 아래와 같이 확인한다.<br/>
+```kotlin
+when("로그인하면") {
+    repository.login(id, password)
 
-<sup>1</sup>아이디와 비밀번호의 유효성을 검사하지 않고 로그인 요청을 생성하는 코드를 작성할 수 있게 된다.<br/>
+    then("서버로 로그인 요청을 전송한다") {
+        // 요청의 타입을 밝히지 않는 경우
+        coVerify { server.send(any()) }
+    }
+
+    then("서버로 로그인 요청을 전송한다") {
+        // 요청의 타입을 밝히는 경우
+        coVerify { server.send(ofType<LoginRequest>()) }
+    }
+}
+```
+<br/>
+
+Kotest의 ``ofType()`` 메서드를 활용하면 검증 과정에서 메서드의 인자로 전달되는 정보를 숨길 수 있다.<br/><br/>
+
+### 결론
+이와 같이 **테스트 가능한 코드는 프로그래밍 가능한 코드**라는 점을 이해하고, 테스트를 작성하도록 하자.<br/>
