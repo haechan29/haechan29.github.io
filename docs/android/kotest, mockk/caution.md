@@ -6,10 +6,10 @@ grand_parent: Android
 nav_order: 1
 ---
 
-## 테스트를 작성할 때 주의할 점
+## 테스트를 작성할 때 주의할 점<br/><br/>
 {: .no_toc } 
 
-### Table of contents
+### Table of contents<br/><br/>
 {: .no_toc .text-delta }
 
 1. TOC
@@ -17,7 +17,7 @@ nav_order: 1
 
 ---
 
-### 원칙
+### 원칙<br/><br/>
 
 {: .highlight }
 작성되어선 안되는 코드는 테스트하지 않아야 한다.
