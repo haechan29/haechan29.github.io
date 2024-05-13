@@ -2,6 +2,7 @@
 title: 이미지 포맷
 layout: default
 parent: Etc
+grand_parent: Summary
 nav_order: 1.1
 ---
 

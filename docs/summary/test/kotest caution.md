@@ -2,6 +2,7 @@
 title: Kotest를 사용할때 주의할 점
 layout: default
 parent: Test
+grand_parent: Summary
 ---
 
 ## Kotest를 사용할때 주의할 점

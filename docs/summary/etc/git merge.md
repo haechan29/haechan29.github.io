@@ -2,6 +2,7 @@
 title: Git Merge 전략
 layout: default
 parent: Etc
+grand_parent: Summary
 nav_order: 7.1
 ---
 

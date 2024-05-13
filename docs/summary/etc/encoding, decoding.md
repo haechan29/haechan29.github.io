@@ -2,6 +2,7 @@
 title: Encoding, Decoding
 layout: default
 parent: Etc
+grand_parent: Summary
 nav_order: 9
 ---
 

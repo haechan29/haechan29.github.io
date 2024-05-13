@@ -2,6 +2,7 @@
 title: G1 GC
 layout: default
 parent: Etc
+grand_parent: Summary
 nav_order: 3.1
 ---
 

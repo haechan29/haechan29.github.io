@@ -1,11 +1,11 @@
 ---
-title: Kotest, Mockk으로 테스트 쉽게 작성하기 
+title: Kotest, Mockk 가이드 
 layout: default
 parent: Post
 ---
 
-## Kotest, Mockk으로 테스트 쉽게 작성하기
-### 방법
+## Kotest, Mockk 가이드
+### 테스트 작성 방법
 1. 틀 짜기<br/>
 - 구현 사항을 테스트로 옮긴다.<br/>
   - 프로그래밍 언어로 구현하기에 앞서 사람의 언어로 테스트 제목을 작성한다.<br/>

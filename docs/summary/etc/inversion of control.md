@@ -2,6 +2,7 @@
 title: Inversion of Control
 layout: default
 parent: Etc
+grand_parent: Summary
 nav_order: 8
 ---
 

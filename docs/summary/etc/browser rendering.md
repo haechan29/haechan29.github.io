@@ -2,6 +2,7 @@
 title: 웹 브라우저의 렌더링 과정
 layout: default
 parent: Etc
+grand_parent: Summary
 nav_order: 14
 ---
 

@@ -1,7 +1,8 @@
 ---
 title: JIT vs AOT
 layout: default
-parent: ETC
+parent: Etc
+grand_parent: Summary
 nav_order: 14.1
 ---
 

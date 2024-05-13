@@ -2,6 +2,7 @@
 title: RDBMS vs NoSQL
 layout: default
 parent: Database
+grand_parent: Summary
 nav_order: 1
 ---
 

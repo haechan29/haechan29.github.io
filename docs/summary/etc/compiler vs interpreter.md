@@ -1,7 +1,8 @@
 ---
 title: 컴파일러 vs 인터프리터
 layout: default
-parent: ETC
+parent: Etc
+grand_parent: Summary
 nav_order: 14
 ---
 

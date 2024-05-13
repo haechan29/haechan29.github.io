@@ -2,6 +2,7 @@
 title: 래스터 이미지 vs 벡터 이미지
 layout: default
 parent: Etc
+grand_parent: Summary
 nav_order: 1
 ---
 

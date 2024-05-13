@@ -2,6 +2,7 @@
 title: 테스트 원칙(1)
 layout: default
 parent: Test
+grand_parent: Summary
 nav_order: 1.1
 ---
 

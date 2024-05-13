@@ -2,6 +2,7 @@
 title: B-Tree
 layout: default
 parent: Database
+grand_parent: Summary
 nav_order: 2.1
 ---
 

@@ -2,6 +2,7 @@
 title: 대칭키 암호화 vs 비대칭키 암호화
 layout: default
 parent: Etc
+grand_parent: Summary
 nav_order: 5
 ---
 

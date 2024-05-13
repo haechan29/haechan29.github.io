@@ -2,6 +2,7 @@
 title: 데이터 무결성과 정합성 
 layout: default
 parent: Database
+grand_parent: Summary
 nav_order: 10
 ---
 

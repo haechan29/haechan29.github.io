@@ -2,6 +2,7 @@
 title: Transaction
 layout: default
 parent: Database
+grand_parent: Summary
 nav_order: 10
 ---
 

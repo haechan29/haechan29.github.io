@@ -2,6 +2,7 @@
 title: Library vs Framework
 layout: default
 parent: Etc
+grand_parent: Summary
 nav_order: 13
 ---
 

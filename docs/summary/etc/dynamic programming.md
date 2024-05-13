@@ -2,6 +2,7 @@
 title: Dynamic Programming
 layout: default
 parent: Etc
+grand_parent: Summary
 nav_order: 2
 ---
 

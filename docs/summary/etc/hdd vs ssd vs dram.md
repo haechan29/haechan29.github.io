@@ -2,6 +2,7 @@
 title: HDD vs SSD vs DRAM
 layout: default
 parent: Etc
+grand_parent: Summary
 nav_order: 6
 ---
 
