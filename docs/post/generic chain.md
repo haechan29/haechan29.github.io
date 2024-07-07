@@ -5,7 +5,7 @@ parent: Post
 date: 2024-05-15
 ---
 
-## 제네릭 무한 연쇄 없애기
+## 제네릭 무한 연쇄 없애기 <sub>[Youtube] [Youtube Link]</sub>
 ### 문제 1
 - 한 클래스가 제네릭을 사용하기 시작하면, 이를 사용하는 클래스에서도 제네릭을 사용하게 된다.<br/>
 - 이로 인해 가독성이 떨어지고, 클래스의 역할을 알아보기가 어려워진다.<br/>
@@ -113,3 +113,5 @@ inline fun <reified T: Token> reify(token: Token): T {
 }
 ```
 <br/>
+
+[Youtube Link]: https://www.youtube.com/watch?v=I7kxH8AXqwQ
