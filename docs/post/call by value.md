@@ -162,5 +162,9 @@ flowOf()에 인자로 넘겨준 값이 Int였기 때문에 flowOf()가 가리키
 2. Java는 Call by value.<br/>
 3. 웬만하면 글을 다 읽어보시는 걸 추천드립니다..!<br/><br/>
 
+### 참고자료
+[[ JAVA ] 참조란?](https://gyubgyub.tistory.com/83)<br/>
+[[ JAVA ] 자바는 call by value? call by reference?](https://gyubgyub.tistory.com/84)<br/>
+
 [1]: /docs/summary/os/process%20and%20thread.html
 [2]: https://play.kotlinlang.org
