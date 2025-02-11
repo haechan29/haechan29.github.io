@@ -3,7 +3,7 @@ title: 인텐트
 layout: default
 parent: Basic
 grand_parent: Android
-date: 2025-01-03
+date: 2025-02-11
 ---
 
 ## 인텐트란?
