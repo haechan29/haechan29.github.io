@@ -4,6 +4,7 @@ layout: default
 parent: Basic
 grand_parent: Android
 date: 2025-02-11
+nav_order: 13
 ---
 
 ## 딥링크 vs 앱링크 vs 지연된 딥링크

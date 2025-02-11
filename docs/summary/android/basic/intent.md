@@ -4,6 +4,7 @@ layout: default
 parent: Basic
 grand_parent: Android
 date: 2025-02-11
+nav_order: 12가
 ---
 
 ## 인텐트란?
