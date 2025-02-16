@@ -2,7 +2,7 @@
 title: Var vs Val vs Const
 layout: default
 parent: Basic
-grandparent: Java, Kotlin
+grand_parent: Java, Kotlin
 nav_order: 1
 ---
 
