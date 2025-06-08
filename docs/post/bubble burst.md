@@ -31,15 +31,15 @@ parent: Post
   - 은행에서 기업의 부실 채권을 연장해주며 좀비 기업을 양산했고<sup>2</sup>, 이로 인해 경제 회복이 지연되었다<br/>
   - 인구 고령화<sup>3</sup>, 경직된 노동시장 구조<sup>4</sup>, 기업지배구조 문제 등의 사회 구조 문제가 성장 잠재력을 높이기 어렵게 만들었다.<br/>
 
+### 자료 출처
+- Bank of Korea. (2025, June 5). \[제2025-14호] 일본경제로부터 되새겨볼 교훈 \[BOK 이슈노트]. Retrieved from https://www.bok.or.kr/portal/bbs/P0002353/view.do?nttId=10091764&searchCnd=1&searchKwd=&depth2=201156&depth3=200433&depth=200433&pageUnit=10&pageIndex=1&programType=newsData&menuNo=200433&oldMenuNo=200433 <br/>
+- Dinc, I. S., & McGuire, P. M. (2004). Did investors regard real estate as “safe” during the “Japanese Bubble” in the 1980s? (BIS Working Papers No. 164). Bank for International Settlements. Retrieved from https://www.bis.org/publ/work164.pdf <br/>
+- Baba, N., & Hisada, T. (2002). _Japan’s financial system: Its perspective and the authorities’ roles in redesigning and administering the system_ (Research Paper ME20-2-3). Institute for Monetary and Economic Studies, Bank of Japan. Retrieved from [https://www.imes.boj.or.jp/research/papers/english/me20-2-3.pdf](https://www.imes.boj.or.jp/research/papers/english/me20-2-3.pdf) <br/><br/>
+
 <sup>1</sup>한국의 국내총생산(GDP) 대비 민간부채 비율은 2023년 기준 207.4%으로 추정된다. 일본의 부동산 버블이 최고 수준이던 1994년의 214.2%에 근접했다. [(한국은행, 2025)][1]<br/>
 <sup>2</sup>일본은 한국과 달리 산업과 금융업이 분리되어 있지 않다. 같은 계열의 기업과 은행이 내부적으로 정보를 공유하거나 순환 출자하는 것이 가능하다.<br/>
 <sup>3</sup>90년 당시 일본의 65세 이상 비율은 12%. 05년에 20%, 25년에 30%를 돌파했다. 참고로 한국의 65세 이상 비율은 25년 기준 20%이다.<br/>
 <sup>4</sup>종신고용, 연공급식 임금체계, 정규직과 비정규직간 이중 구조 등. 대부분 한국도 겪고 있는 사회 구조 문제이다.<br/>
-
-### 자료 출처
-- 한국은행. (2025년 5월 28일). 2025년 1/4분기 중 자금순환(잠정). 한국은행. 조회 2025년 6월 7일, from https://www.bok.or.kr/portal/bbs/P0002353/view.do?nttId=10091764&searchCnd=1&searchKwd=&depth2=201156&depth3=200433&depth=200433&pageUnit=10&pageIndex=1&programType=newsData&menuNo=200433&oldMenuNo=200433
-- Dinc, S., & McGuire, P. M. (2004). _Did investors regard real estate as ‘safe’ during the Japanese Bubble in the 1980s?_ BIS Working Paper No. 164. Bank for International Settlements. https://www.bis.org/publ/work164.pdf
-- Baba, N., & Hisada, T. (2002). _Japan’s financial system: Its perspective and the authorities’ roles in redesigning and administering the system_ (Research Paper ME20-2-3). Institute for Monetary and Economic Studies, Bank of Japan. Retrieved from [https://www.imes.boj.or.jp/research/papers/english/me20-2-3.pdf](https://www.imes.boj.or.jp/research/papers/english/me20-2-3.pdf)
 
 [1]: https://www.bok.or.kr/portal/bbs/P0002353/view.do?nttId=10091764&searchCnd=1&searchKwd=&depth2=201156&depth3=200433&depth=200433&pageUnit=10&pageIndex=1&programType=newsData&menuNo=200433&oldMenuNo=200433
 [2]: https://www.bis.org/publ/work164.pdf
