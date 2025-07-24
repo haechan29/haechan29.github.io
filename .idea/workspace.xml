@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9d3636e-29a2-4be0-85d6-bf5482ff56d1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/summary/android/basic/process lifecycle.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/summary/java, kotlin/basic/var vs val vs const.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/summary/java, kotlin/basic/var vs val vs const.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,11 +26,12 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/haechan29/IdeaProjects/haechan29.github.io/docs/summary/android/basic"
+    "last_opened_file_path": "/Users/haechan29/IdeaProjects/haechan29.github.io/docs/post"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docs/post" />
       <recent name="$PROJECT_DIR$/docs/summary/android/basic" />
       <recent name="$PROJECT_DIR$/docs" />
     </key>
